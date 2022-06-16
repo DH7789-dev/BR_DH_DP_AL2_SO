@@ -7,4 +7,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="domain\" />
+    <None Remove="infra\" />
+    <None Remove="appli\" />
+    <None Remove="appli\services\" />
+    <None Remove="appli\validator\" />
+    <None Remove="appli\tostring\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dom\" />
+    <Folder Include="infra\" />
+    <Folder Include="appli\" />
+    <Folder Include="appli\services\" />
+    <Folder Include="appli\validator\" />
+    <Folder Include="appli\tostring\" />
+  </ItemGroup>
 </Project>
